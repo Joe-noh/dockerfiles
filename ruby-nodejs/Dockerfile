@@ -3,9 +3,9 @@ MAINTAINER Joe-noh
 
 RUN \
   cd /tmp && \
-  wget http://nodejs.org/dist/latest-v6.x/node-v6.9.1.tar.gz && \
-  tar xvzf node-v6.9.1.tar.gz && \
-  rm -f node-v6.9.1.tar.gz && \
+  wget https://nodejs.org/dist/v5.11.0/node-v5.11.0.tar.gz && \
+  tar xvzf node-v5.11.0.tar.gz && \
+  rm -f node-v5.11.0.tar.gz && \
   cd node-v* && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \
